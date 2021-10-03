@@ -1,11 +1,10 @@
 import './App.css';
+import Master from './components/layout/Master';
 
 function App() {
   return (
     <div>
-      <p className="bg-green-400">Hello Sohag</p>
-      <button className="btn btn-secondary">secondary</button> 
-
+      <Master></Master>
     </div>
   );
 }
