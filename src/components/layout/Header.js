@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="mx-2 mt-2 navbar mb-2 shadow-lg bg-green-400 text-neutral-content rounded">
+        <div className=" mt-2 navbar mb-2 shadow-lg bg-green-400 text-neutral-content rounded">
             <div className="px-2 mx-2 navbar-start">
                 <span className="text-lg font-bold">
                     PRO LEARNER

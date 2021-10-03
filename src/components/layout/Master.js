@@ -12,29 +12,33 @@ import Header from './Header';
 
 const Master = () => {
     return (
-        <div>
+        <div className="mx-2">
             <BrowserRouter>
                 <Header></Header>
-                <Switch>
-                    <Route exact path="/">
-                        <Home></Home>
-                    </Route>
-                    <Route path="/home">
-                        <Home></Home>
-                    </Route>
-                    <Route path="/services">
-                        <Services></Services>
-                    </Route>
-                    <Route path="/about">
-                        <About></About>
-                    </Route>
-                    <Route path="/contact">
-                        <Contact></Contact>
-                    </Route>
-                    <Route path="*">
-                        <PageNotFound></PageNotFound>
-                    </Route>
-                </Switch>
+                {/* body wrapper  */}
+                <div className="mx-5">
+                    <Switch >
+                        <Route exact path="/">
+                            <Home></Home>
+                        </Route>
+                        <Route path="/home">
+                            <Home></Home>
+                        </Route>
+                        <Route path="/services">
+                            <Services></Services>
+                        </Route>
+                        <Route path="/about">
+                            <About></About>
+                        </Route>
+                        <Route path="/contact">
+                            <Contact></Contact>
+                        </Route>
+                        <Route path="*">
+                            <PageNotFound></PageNotFound>
+                        </Route>
+                    </Switch>
+                </div>
+
 
             </BrowserRouter>
 
