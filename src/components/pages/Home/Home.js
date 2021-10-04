@@ -1,9 +1,10 @@
 import React from 'react';
+import CourseItem from '../../sections/CourseItem/CourseItem';
 
 const Home = () => {
     return (
         <div className="">
-            <div class="grid grid-cols-4 gap-4">
+            {/* <div class="grid grid-cols-4 gap-4">
                 <div className="card text-center shadow-2xl">
                     <figure className="px-10 pt-10">
                         <img src="https://picsum.photos/id/1005/400/250" className="rounded-xl" alt="service img " />
@@ -16,14 +17,23 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </div> */}
+
+
+            {/* service section  */}
+            <div className="grid grid-cols-3 gap-1 mx-36">
+                <CourseItem></CourseItem>
+                <CourseItem></CourseItem>
+                <CourseItem></CourseItem>
             </div>
 
+            {/* service section  */}
 
             {/* Students testimonial  */}
-            
+
             {/* Students testimonial  */}
 
-            
+
         </div>
     );
 };
