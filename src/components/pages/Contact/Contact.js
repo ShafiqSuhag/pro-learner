@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div>
             {/* hero section  */}
-            <HeroSection title="CONTACT US" bgImg="./images/contact-cover.png"></HeroSection>
+            <HeroSection title="CONTACT US" bgImg="./images/contact-cover.png" bgColor="bg-green-300" titleBgColor="bg-green-400"></HeroSection>
             {/* <div className="relative z-10">
                 <div className="h-96  bg-purple-300 rounded flex justify-center items-center z-10 cover-image-bg shadow-xl " style={{ backgroundImage: "url(./images/contact-cover.png)" }} >
                 </div>

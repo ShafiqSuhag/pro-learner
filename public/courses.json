@@ -1,9 +1,101 @@
 [
     {
+        "id": 1,
         "name":"Modern JavaScript From The Beginning", 
-        "image" : "image",
-        "price" : 30, 
-        "category": "programming"
-
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 385, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 2,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 3,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 4,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 5,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 6,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 7,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 8,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
+    },
+    {
+        "id": 9,
+        "name":"Modern JavaScript From The Beginning 2", 
+        "category" : "programming",
+        "instructor" : "Pamela Foster", 
+        "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
+        "price" : 300, 
+        "duration"  : "08 hr 15 mins",
+        "lectures" : "29 Lectures", 
+        "rating": 4.9
     }
 ]

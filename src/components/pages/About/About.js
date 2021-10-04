@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div >
             {/* hero section  */}
-            <HeroSection title="ABOUT US" bgImg="./images/contact-cover.png"></HeroSection>
+            <HeroSection title="ABOUT US" bgImg="./images/about-us.png" bgColor="bg-indigo-300" titleBgColor="bg-indigo-400"></HeroSection>
 
             {/* about us page info  */}
             <div className="grid grid-cols-2 mt-20 mx-10 ">
@@ -23,7 +23,7 @@ const About = () => {
                     <p className="my-5">
                         Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we connect people through knowledge.
                     </p>
-                    <button class="btn btn-outline btn-accent">BROWSE COURSES</button>
+                    <button className="btn btn-outline btn-accent">BROWSE COURSES</button>
 
 
                 </div>

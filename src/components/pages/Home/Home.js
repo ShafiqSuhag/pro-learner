@@ -1,30 +1,50 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import CourseItem from '../../sections/CourseItem/CourseItem';
 
 const Home = () => {
+    const [courses, setCourses] = useState([]);
+
+    useEffect(() => {
+        fetch('./courses.json')
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }
+        , [])
+
     return (
-        <div className="">
-            {/* <div class="grid grid-cols-4 gap-4">
-                <div className="card text-center shadow-2xl">
-                    <figure className="px-10 pt-10">
-                        <img src="https://picsum.photos/id/1005/400/250" className="rounded-xl" alt="service img " />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title">shadow, center, padding</h2>
-                        <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
-                        <div className="justify-center card-actions">
-                            <button className="btn btn-outline btn-accent">More info</button>
-                        </div>
+
+        <div className="bg-base-200">
+
+            {/* Homepage hero section  */}
+            <div className="hero min-h-screen bg-base-200">
+                <div className="flex-col hero-content lg:flex-row-reverse">
+                    <img src="./images/home-hero.png" alt="hero " className="max-w-sm rounded-full shadow-2xl" />
+                    <div>
+                        <h1 className="mb-5 text-5xl font-bold">
+                            Learn Without Limits
+                        </h1>
+                        <p className="mb-5">
+                            Build skills with courses, certificates, and degrees online from world-class universities and companies.
+                        </p>
+                        <button className="btn bg-indigo-400 border-0 ">BROWSE ALL COURSES</button>
                     </div>
                 </div>
-            </div> */}
+            </div>
+            {/* Homepage hero section  */}
 
 
             {/* service section  */}
-            <div className="grid grid-cols-3 gap-1 mx-36">
-                <CourseItem></CourseItem>
-                <CourseItem></CourseItem>
-                <CourseItem></CourseItem>
+            <div className="grid grid-cols-3 gap-1 mx-36 mb-36 ">
+                {
+                    courses.map(course => {
+                        if (course.id < 4) {
+                            return <CourseItem key={course.id} course={course}></CourseItem>
+                        }
+                        return []
+
+                    })
+                }
+
             </div>
 
             {/* service section  */}

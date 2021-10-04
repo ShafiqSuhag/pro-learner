@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+    
     return (
         <div className=" mt-2 navbar mb-2 shadow-lg bg-green-400 text-neutral-content rounded">
             <div className="px-2 mx-2 navbar-start">
@@ -11,16 +12,16 @@ const Header = () => {
             </div>
             <div className="hidden px-2 mx-2 navbar-center lg:flex">
                 <div className="flex items-stretch">
-                    <NavLink to='/home' className="btn btn-ghost btn-sm rounded-btn">
+                    <NavLink to='/home' className="btn btn-ghost btn-sm rounded-btn" activeClassName="btn-active">
                         Home
                     </NavLink>
-                    <NavLink to='/services' className="btn btn-ghost btn-sm rounded-btn">
+                    <NavLink to='/services' className="btn btn-ghost btn-sm rounded-btn" activeClassName="btn-active">
                         Services
                     </NavLink>
-                    <NavLink to='/about' className="btn btn-ghost btn-sm rounded-btn">
+                    <NavLink to='/about' className="btn btn-ghost btn-sm rounded-btn" activeClassName="btn-active">
                         About
                     </NavLink>
-                    <NavLink to='/contact' className="btn btn-ghost btn-sm rounded-btn">
+                    <NavLink to='/contact' className="btn btn-ghost btn-sm rounded-btn" activeClassName="btn-active">
                         Contact
                     </NavLink>
                 </div>
