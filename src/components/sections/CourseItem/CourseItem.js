@@ -1,17 +1,9 @@
 import React from 'react';
 
 const CourseItem = (props) => {
-    // "id": 1,
-    //     "name":"Modern JavaScript From The Beginning", 
-    //     "category" : "programming",
-    //     "instructor" : "Pamela Foster", 
-    //     "img" : "https://template.hasthemes.com/edule/eduLe/assets/images/courses/courses-01.jpg",
-    //     "price" : 385, 
-    //     "duration"  : "08 hr 15 mins",
-    //     "lectures" : "29 Lectures", 
-    //     "rating": 4.9
+    
 
-    const { name, category, instructor, img, price, duration, lectures } = props.course
+    const { name, category, instructor, img, price, duration, lectures, authorImg } = props.course
     return (
         <div className="course-item mx-4  my-1 border-2 rounded-lg  hover:border-green-500   flex flex-col p-5 bg-white">
             <div className="flex pb-5">
@@ -20,7 +12,7 @@ const CourseItem = (props) => {
             <div id="2nd line" className="flex justify-between items-center mb-5">
                 <div className="flex items-center">
                     <div>
-                        <img src="https://template.hasthemes.com/edule/eduLe/assets/images/author/author-01.jpg" alt="instructor " className="rounded-full h-12 w-12 " />
+                        <img src={authorImg} alt="instructor " className="rounded-full h-12 w-12 " />
                     </div>
                     <div className="text-gray-500 text-sm ml-2">
                         {instructor}

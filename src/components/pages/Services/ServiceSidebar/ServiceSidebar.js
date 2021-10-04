@@ -18,17 +18,36 @@ const ServiceSidebar = () => {
                            All Courses
                         </a>
                     </li>
-                    <li className="hover-bordered">
+                   
+                    <li className="hover-bordered uppercase">
                         <a href="/">
-                            <span className="material-icons mr-3">layers</span>
-                            Programming
+                            <span className="material-icons mr-3 ">layers</span>
+                            design
                         </a>
                     </li>
-                    
-                    <li className="hover-bordered">
+                    <li className="hover-bordered uppercase">
                         <a href="/">
-                            <span className="material-icons mr-3">layers</span>
-                            programming2
+                            <span className="material-icons mr-3 ">layers</span>
+                            finance
+                        </a>
+                    </li>
+                   
+                    <li className="hover-bordered uppercase">
+                        <a href="/">
+                            <span className="material-icons mr-3 ">layers</span>
+                            business
+                        </a>
+                    </li>
+                    <li className="hover-bordered uppercase">
+                        <a href="/">
+                            <span className="material-icons mr-3 ">layers</span>
+                            marketing
+                        </a>
+                    </li>
+                    <li className="hover-bordered uppercase">
+                        <a href="/">
+                            <span className="material-icons mr-3 ">layers</span>
+                            Programming
                         </a>
                     </li>
                     
