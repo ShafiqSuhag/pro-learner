@@ -9,7 +9,7 @@ const CourseItem = (props) => {
             <div className="flex pb-5">
                 <img src={img} alt="course item" className="rounded" />
             </div>
-            <div id="2nd line" className="flex justify-between items-center mb-5">
+            <div className="flex justify-between items-center mb-5">
                 <div className="flex items-center">
                     <div>
                         <img src={authorImg} alt="instructor " className="rounded-full h-12 w-12 " />
@@ -23,11 +23,11 @@ const CourseItem = (props) => {
                 </button>
 
             </div>
-            <div id="3" className="text-lg font-semibold ">
+            <div  className="text-lg font-semibold ">
                 {name}
             </div>
-            <div id="4" className="flex justify-between items-center my-6">
-                <div className="flex items-center">
+            <div className="flex justify-between items-center my-6 text-gray-500 flex-wrap py-2">
+                <div className="flex items-center ">
                     <span className="material-icons mr-1">
                         timer
                     </span>{duration}
@@ -38,14 +38,12 @@ const CourseItem = (props) => {
                     </span> {lectures}
                 </div>
             </div>
-            <div id="5" className="flex justify-between items-center">
+            <div className="flex justify-between items-center">
                 <div className="text-2xl font-semibold">
                     ${price}
                 </div>
                 <div>
-                    {/* {rating} */}
                     <button className="px-4 py-1 bg-green-500 rounded text-white hover:bg-green-800 hover:text-white ">Buy Now</button>
-
                 </div>
             </div>
         </div>

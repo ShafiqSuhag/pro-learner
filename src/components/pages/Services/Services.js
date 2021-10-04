@@ -13,13 +13,13 @@ const Services = () => {
         , [])
     return (
 
-        <div className="flex">
+        <div className="md:flex">
 
-            <div className="w-3/12 ">
+            <div className="md:w-3/12">
                 <ServiceSidebar></ServiceSidebar>
             </div>
-            <div className="w-9/12 ">
-                <div className="grid grid-cols-3 gap-1 ">
+            <div className="md:w-9/12 ">
+                <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  gap-1 md:mx-1 xl:mx-5 lg:pb-36    ">
                     {
                         courses.map(course => <CourseItem key={course.id} course={course}></CourseItem>)
                     }

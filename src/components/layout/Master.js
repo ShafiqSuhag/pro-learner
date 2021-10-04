@@ -13,10 +13,12 @@ import Header from './Header';
 const Master = () => {
     return (
         <div className="mx-2">
+
+            {/* react router  */}
             <BrowserRouter>
                 <Header></Header>
                 {/* body wrapper  */}
-                <div className="mx-5">
+                <div className="mx-1 md:mx-5">
                     <Switch >
                         <Route exact path="/">
                             <Home></Home>
@@ -38,11 +40,8 @@ const Master = () => {
                         </Route>
                     </Switch>
                 </div>
-
-
             </BrowserRouter>
-
-
+            {/* react router / */}
             <Footer></Footer>
         </div>
     );
