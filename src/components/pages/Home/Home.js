@@ -18,6 +18,11 @@ const Home = () => {
                 </div>
             </div>
 
+
+            {/* Students testimonial  */}
+            
+            {/* Students testimonial  */}
+
             
         </div>
     );
