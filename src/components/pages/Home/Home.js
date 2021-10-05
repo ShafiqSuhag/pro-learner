@@ -41,13 +41,22 @@ const Home = () => {
             {/* service section  */}
             <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  gap-1 md:mx-10 xl:mx-36 lg:pb-36    ">
                 {
-                    !courses.length ? <CourseItemPreloader></CourseItemPreloader> :
-                        courses.map(course => {
-                            if (course.id <= 6) {
-                                return <CourseItem key={course.id} course={course}></CourseItem>
-                            }
-                            return []
-                        })
+
+                    !courses.length ? 
+                    // course item css preloader 
+                    <>
+                        <CourseItemPreloader></CourseItemPreloader>
+                        <CourseItemPreloader></CourseItemPreloader>
+                        <CourseItemPreloader></CourseItemPreloader>
+                    </> 
+                    // course item css preloader 
+                    :
+                    courses.map(course => {
+                        if (course.id <= 6) {
+                            return <CourseItem key={course.id} course={course}></CourseItem>
+                        }
+                        return []
+                    })
                 }
 
 
