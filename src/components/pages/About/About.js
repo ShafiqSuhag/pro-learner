@@ -1,7 +1,9 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import HeroSection from '../../sections/HeroSection/HeroSection';
 
 const About = () => {
+    const history = useHistory()
     return (
         <div >
             {/* hero section  */}
@@ -23,7 +25,7 @@ const About = () => {
                     <p className="my-5">
                         Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we connect people through knowledge.
                     </p>
-                    <button className="btn btn-outline btn-accent">BROWSE COURSES</button>
+                    <button onClick={() =>  history.push("/services") } className="btn btn-outline btn-accent">BROWSE COURSES</button>
 
 
                 </div>
